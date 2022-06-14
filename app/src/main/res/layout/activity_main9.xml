@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="293dp"
+        android:layout_height="66dp"
+        android:background="#1EF6EEEE"
+        android:lineSpacingExtra="2sp"
+        android:text="8) Ao estacionar a empilhadeira o operador deve..."
+        android:textColor="#F8F5F5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#0E0E0E"
+        android:onClick="avancar"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <RadioGroup
+        android:layout_width="337dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1EF3EBEB"
+            android:buttonTint="#0E0E0E"
+            android:text="Estacionar com os garfos elevados para que os pedestres visualize-os;"
+            android:textColor="#FFFCFC"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#431E1E1E"
+            android:buttonTint="#131212"
+            android:text="Estacionar não obstruindo equipamentos de combate a incêndio, com garfos elevados e inclinados;"
+            android:textColor="#F4F1F1"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#25EDE8E8"
+            android:buttonTint="#171616"
+            android:text="Estacionar em locais que não obstrua equipamento de combate a incêndio, portas, corredores, comgarfos ligeiramente inclinados apoiados ao chão e com freio de mão puxado;"
+            android:textColor="#F1EEEE"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton32"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#41131313"
+            android:buttonTint="#020202"
+            android:text="Estacionar em qualquer local, desde que seja um corredor, porta ou passagem de pedestres para fácilacesso."
+            android:textColor="#EFE9E9"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

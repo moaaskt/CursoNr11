@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity8">
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#131313"
+        android:onClick="avancar"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="285dp"
+        android:layout_height="52dp"
+        android:background="#20F6F0F0"
+        android:lineSpacingExtra="2sp"
+        android:text="7) Qual é o EPI necessário que deve ser utilizado ao operar a empilhadeira?"
+        android:textColor="#EFE8E8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23F4EEEE"
+            android:buttonTint="#191818"
+            android:text="Luva de Algodão;"
+            android:textColor="#EADEDE"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C1C1C1C"
+            android:buttonTint="#191818"
+            android:text="Mangote de Kevlar;"
+            android:textColor="#F1EFEF"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20F1EEEE"
+            android:buttonTint="#0B0A0A"
+            android:text="Protetor Auditivo Tipo Concha e/ou Plug;"
+            android:textColor="#FBF7F7"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C171616"
+            android:text="Óculos de Segurança."
+            android:textColor="#F3F1F1"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

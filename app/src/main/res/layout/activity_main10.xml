@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity10">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#121111"
+        android:onClick="avancar"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:background="#20FAECEC"
+        android:text="9) Qual é a finalidade do contra-peso?"
+        android:textColor="#EFE4E4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <RadioGroup
+        android:layout_width="303dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20F6F1F1"
+            android:buttonTint="#151515"
+            android:text="Peça que serve de união entre a carcaça e o capô;"
+            android:textColor="#F1EAEA"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3E101010"
+            android:buttonTint="#0C0C0C"
+            android:text="Peça metálica que prolonga a bitola longitudinal;"
+            android:textColor="#F8F5F5"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#23F3EFEF"
+            android:buttonTint="#000000"
+            android:text="Peça que está parafusada no extremo posterior;"
+            android:textColor="#EFE6E6"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3E0C0C0C"
+            android:buttonTint="#000000"
+            android:text="Peça que compartilha do equilíbrio entre os centros."
+            android:textColor="#F1EAEA"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

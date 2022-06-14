@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity6">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#0B0A0A"
+        android:onClick="avancar"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup5"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="304dp"
+        android:layout_height="78dp"
+        android:background="#1EF4EDED"
+        android:lineSpacingExtra="2sp"
+        android:text="5) Um operador de empilhadeira, além de dirigir deve saber detectar os defeitos na empilhadeira; Por quê?"
+        android:textColor="#F8F5F5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="280dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.24000001">
+
+        <RadioButton
+            android:id="@+id/radioButton21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20F4F0F0"
+            android:buttonTint="#121111"
+            android:text=" Antes que estes se tornem maiores e perigosos;"
+            android:textColor="#F8F4F4"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C0E0E0E"
+            android:buttonTint="#101010"
+            android:text="Para não prejudicar a produtividade do operador;"
+            android:textColor="#F4EEEE"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1DF4EEEE"
+            android:buttonTint="#040303"
+            android:text="Para não atrasar o carregamento;"
+            android:textColor="#EFE8E8"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton23"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="#390B0A0A"
+            android:buttonTint="#1E1D1D"
+            android:text="Antes que estes defeitos se tornem maiores ou perigosos, diminuindo o custo de parada da máquina."
+            android:textColor="#F1EAEA"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity11">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:backgroundTint="#EC0808"
+        android:onClick="finalizar"
+        android:text="Finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="291dp"
+        android:layout_height="85dp"
+        android:background="#22F6F4F4"
+        android:text="10) Quantas pessoas devem ser elevadas na empilhadeira usando-se um palete de 1,20 m x 1,20 m em condições planas?"
+        android:textColor="#F4F2F2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17000002" />
+
+    <RadioGroup
+        android:layout_width="254dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20EFE9E9"
+            android:buttonTint="#100F0F"
+            android:text="Duas pessoas;"
+            android:textColor="#F3ECEC"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3B0C0C0C"
+            android:buttonTint="#191818"
+            android:text="Uma pessoa só, para que fique bem acomodada;"
+            android:textColor="#F3EBEB"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1BFBF7F7"
+            android:buttonTint="#0C0C0C"
+            android:text="Utilizar sempre um rack de segurança;"
+            android:textColor="#EFE9E9"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C171616"
+            android:buttonTint="#202020"
+            android:text="Nenhuma das alternativas."
+            android:textColor="#F8F5F5"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

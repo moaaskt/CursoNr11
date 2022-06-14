@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity7">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#131313"
+        android:onClick="avancar"
+        android:text="Avançar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="283dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="185dp"
+        android:background="#20EDE5E5"
+        android:text="6) Ao subir na empilhadeira qual é o procedimento correto?"
+        android:textColor="#F3EDED"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="302dp"
+        android:layout_height="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#22EFE8E8"
+            android:buttonTint="#1B1B1B"
+            android:text="Subir do lado esquerdo apoiando-se com cuidado no volante;"
+            android:textColor="#EFEDED"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C0C0C0C"
+            android:buttonTint="#121010"
+            android:text="Subir do lado esquerdo apoiando-se no suporte;"
+            android:textColor="#EDE6E6"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20EFE9E9"
+            android:buttonTint="#1B1A1A"
+            android:text="Subir do lado direito apoiando nas alavancas de operação;"
+            android:textColor="#F3EBEB"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3C1E1D1D"
+            android:buttonTint="#131313"
+            android:text="Nenhuma das alternativas. "
+            android:textColor="#EFEAEA"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

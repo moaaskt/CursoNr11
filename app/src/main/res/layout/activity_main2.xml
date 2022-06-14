@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#035106"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="116dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#1BF3EFEF"
+        android:backgroundTintMode="src_over"
+        android:onClick="avancar"
+        android:text="Avancar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="336dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#17F6F3F3"
+            android:backgroundTint="#BAABAB"
+            android:buttonTint="#F1ECEC"
+            android:text="Neutralizar ao máximo a possibilidade de provocar acidentes;"
+            android:textColor="#E3DDDD"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#F6F0F0"
+            android:text="Adoção de procedimentos de rotina pautados pelas normas de segurança;"
+            android:textColor="#E3DCDC"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14F1E8E8"
+            android:buttonTint="#FDFAFA"
+            android:text="Cumprimento ao disposto na NR-11 da Port. 3214/78 MTb;"
+            android:textColor="#F6F0F0"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:breakStrategy="high_quality"
+            android:bufferType="normal"
+            android:buttonTint="#FAF9F9"
+            android:buttonTintMode="src_in"
+            android:drawableTint="#D60404"
+            android:text="todas as respostas acima."
+            android:textColor="#E1D9D9"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="329dp"
+        android:layout_height="65dp"
+        android:background="#17F6EFEF"
+        android:lineSpacingExtra="2sp"
+        android:text="1) Os objetivos do curso de operadores de empilhadeira é a sensibilização quanto ànecessidade de:"
+        android:textColor="#FAF8F8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
