@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     EditText nome, senha;
-    ArrayList<usuario> listausuario = new ArrayList<>();
+    ArrayList<Usuario> listausuario = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         nome = findViewById(R.id.nome);
         senha = findViewById(R.id.senha);
-        usuario v1 = new usuario("aluno", "123", 2222);
-        usuario v2 = new usuario("professor", "123", 233);
+        Usuario v1 = new Usuario("aluno", "123", 2222);
+        v1.pontos = 0;
+        Usuario v2 = new Usuario("professor", "123", 233);
         listausuario.add(v1);
         listausuario.add(v2);
 
@@ -34,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
         String l = nome.getText().toString();
         String s = senha.getText().toString();
         if (verifica(l, s)) {
-            String mensagem = "Parabéns, você logou";
+            String mensagem = "Seja Bem Vindo";
             Toast.makeText(this, mensagem, Toast.LENGTH_LONG).show();
             mudaTela();
         } else {
-            Toast.makeText(this, "Login ou senha incorreta!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Login ou senha incorreto!", Toast.LENGTH_LONG).show();
         }
     }
 
@@ -48,9 +49,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+
+
+   public void passWord(View vss){
+        Intent j = new Intent(this, MainActivity13.class);
+        startActivity(j);
+   }
+
     public boolean verifica(String login, String senha) {
-        for (usuario pessoa : listausuario) {
+        for (Usuario pessoa : listausuario) {
             if (pessoa.login.equals(login) && pessoa.senha.equals(senha)) {
+                MainActivity2.logado = pessoa;
                 return true;
             }
         }

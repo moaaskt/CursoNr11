@@ -8,10 +8,10 @@
     tools:context=".MainActivity7">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn"
         android:layout_width="125dp"
         android:layout_height="70dp"
-        android:layout_marginStart="275dp"
+        android:layout_marginStart="273dp"
         android:layout_marginEnd="50dp"
         android:backgroundTint="#131313"
         android:onClick="avancar"
@@ -25,11 +25,12 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="283dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginEnd="185dp"
-        android:background="#20EDE5E5"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="27dp"
+        android:background="#14EDE9E9"
+        android:lineSpacingExtra="2sp"
         android:text="6) Ao subir na empilhadeira qual é o procedimento correto?"
         android:textColor="#F3EDED"
         android:textSize="16sp"
@@ -39,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.23000002" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <RadioGroup
         android:id="@+id/radioGroup6"
@@ -49,50 +50,68 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57">
 
         <RadioButton
-            android:id="@+id/radioButton17"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#22EFE8E8"
-            android:buttonTint="#1B1B1B"
+            android:buttonTint="#F10606"
+            android:onClick="onRadioButtonClicked"
             android:text="Subir do lado esquerdo apoiando-se com cuidado no volante;"
             android:textColor="#EFEDED"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton18"
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3C0C0C0C"
-            android:buttonTint="#121010"
+            android:buttonTint="#F40505"
+            android:onClick="onRadioButtonClicked"
             android:text="Subir do lado esquerdo apoiando-se no suporte;"
             android:textColor="#EDE6E6"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton19"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#20EFE9E9"
-            android:buttonTint="#1B1A1A"
+            android:buttonTint="#FF0000"
+            android:onClick="onRadioButtonClicked"
             android:text="Subir do lado direito apoiando nas alavancas de operação;"
             android:textColor="#F3EBEB"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton20"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3C1E1D1D"
-            android:buttonTint="#131313"
+            android:buttonTint="#F30303"
+            android:onClick="onRadioButtonClicked"
             android:text="Nenhuma das alternativas. "
             android:textColor="#EFEAEA"
             android:textSize="16sp"
             android:textStyle="italic" />
     </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="417dp"
+        android:layout_height="24dp"
+        android:progress="60"
+        android:progressTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

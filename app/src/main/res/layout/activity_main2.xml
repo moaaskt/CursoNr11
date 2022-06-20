@@ -8,9 +8,11 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn"
         android:layout_width="116dp"
         android:layout_height="71dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="#1BF3EFEF"
         android:backgroundTintMode="src_over"
         android:onClick="avancar"
@@ -20,60 +22,66 @@
         app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.818" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="336dp"
         android:layout_height="194dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:onClick="onRadioButtonClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56">
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#17F6F3F3"
             android:backgroundTint="#BAABAB"
-            android:buttonTint="#F1ECEC"
+            android:buttonTint="#EC0303"
+            android:onClick="onRadioButtonClicked"
             android:text="Neutralizar ao máximo a possibilidade de provocar acidentes;"
             android:textColor="#E3DDDD"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:buttonTint="#F6F0F0"
+            android:buttonTint="#ED0505"
+            android:onClick="onRadioButtonClicked"
             android:text="Adoção de procedimentos de rotina pautados pelas normas de segurança;"
             android:textColor="#E3DCDC"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#14F1E8E8"
-            android:buttonTint="#FDFAFA"
+            android:buttonTint="#EA0606"
+            android:onClick="onRadioButtonClicked"
             android:text="Cumprimento ao disposto na NR-11 da Port. 3214/78 MTb;"
             android:textColor="#F6F0F0"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton8"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:breakStrategy="high_quality"
             android:bufferType="normal"
-            android:buttonTint="#FAF9F9"
+            android:buttonTint="#EF0404"
             android:buttonTintMode="src_in"
             android:drawableTint="#D60404"
+            android:onClick="onRadioButtonClicked"
             android:text="todas as respostas acima."
             android:textColor="#E1D9D9"
             android:textSize="16sp"
@@ -84,15 +92,31 @@
         android:id="@+id/textView10"
         android:layout_width="329dp"
         android:layout_height="65dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="27dp"
         android:background="#17F6EFEF"
         android:lineSpacingExtra="2sp"
         android:text="1) Os objetivos do curso de operadores de empilhadeira é a sensibilização quanto ànecessidade de:"
         android:textColor="#FAF8F8"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="416dp"
+        android:layout_height="31dp"
+        android:progress="10"
+        android:progressTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

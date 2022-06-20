@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "714028365947",
+    "firebase_url": "https://aulafirebase-2063b-default-rtdb.firebaseio.com",
+    "project_id": "aulafirebase-2063b",
+    "storage_bucket": "aulafirebase-2063b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714028365947:android:0d789e6a1ed34620ad8ade",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzT2FDHgEcRK4VT0TPSrrTNh116S4euXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714028365947:android:003d0d40e7463cd3ad8ade",
+        "android_client_info": {
+          "package_name": "com.example.aulafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzT2FDHgEcRK4VT0TPSrrTNh116S4euXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714028365947:android:215f6c3f06652285ad8ade",
+        "android_client_info": {
+          "package_name": "com.example.moakeno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzT2FDHgEcRK4VT0TPSrrTNh116S4euXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714028365947-rege8pbv3cqh3i362itug39416gnh06i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

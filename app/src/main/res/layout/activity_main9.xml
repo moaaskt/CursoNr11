@@ -9,9 +9,11 @@
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="293dp"
-        android:layout_height="66dp"
-        android:background="#1EF6EEEE"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="27dp"
+        android:background="#14EDE9E9"
         android:lineSpacingExtra="2sp"
         android:text="8) Ao estacionar a empilhadeira o operador deve..."
         android:textColor="#F8F5F5"
@@ -22,13 +24,13 @@
         app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="278dp"
+        android:id="@+id/btn"
+        android:layout_width="111dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="273dp"
         android:layout_marginEnd="50dp"
         android:backgroundTint="#0E0E0E"
         android:onClick="avancar"
@@ -38,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <RadioGroup
         android:layout_width="337dp"
@@ -46,48 +48,66 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
 
         <RadioButton
-            android:id="@+id/radioButton29"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#1EF3EBEB"
-            android:buttonTint="#0E0E0E"
+            android:buttonTint="#F30202"
+            android:onClick="onRadioButtonClicked"
             android:text="Estacionar com os garfos elevados para que os pedestres visualize-os;"
             android:textColor="#FFFCFC"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton30"
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#431E1E1E"
-            android:buttonTint="#131212"
+            android:buttonTint="#F80000"
+            android:onClick="onRadioButtonClicked"
             android:text="Estacionar não obstruindo equipamentos de combate a incêndio, com garfos elevados e inclinados;"
             android:textColor="#F4F1F1"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton31"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#25EDE8E8"
-            android:buttonTint="#171616"
+            android:buttonTint="#EF0C0C"
+            android:onClick="onRadioButtonClicked"
             android:text="Estacionar em locais que não obstrua equipamento de combate a incêndio, portas, corredores, comgarfos ligeiramente inclinados apoiados ao chão e com freio de mão puxado;"
             android:textColor="#F1EEEE"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton32"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:background="#41131313"
-            android:buttonTint="#020202"
+            android:buttonTint="#F30E0E"
+            android:onClick="onRadioButtonClicked"
             android:text="Estacionar em qualquer local, desde que seja um corredor, porta ou passagem de pedestres para fácilacesso."
             android:textColor="#EFE9E9"
             android:textStyle="italic" />
     </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressBar8"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="417dp"
+        android:layout_height="24dp"
+        android:progress="80"
+        android:progressTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

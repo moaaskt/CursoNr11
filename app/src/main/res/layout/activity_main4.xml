@@ -8,55 +8,59 @@
     tools:context=".MainActivity4">
 
     <RadioGroup
-        android:id="@+id/radioGroup3"
-        android:layout_width="294dp"
-        android:layout_height="195dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:id="@+id/radioGroup"
+        android:layout_width="317dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59000003">
 
         <RadioButton
-            android:id="@+id/radioButton9"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#17FAF6F6"
-            android:buttonTint="#201F1F"
+            android:buttonTint="#F40606"
+            android:onClick="onRadioButtonClicked"
             android:text="CNH cat.D e o crachá daempresa;"
             android:textColor="#ECE8E8"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton10"
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#140C0C0C"
-            android:buttonTint="#1B1A1A"
+            android:buttonTint="#F40505"
+            android:onClick="onRadioButtonClicked"
             android:text="Qualquer documento deidentidade;"
             android:textColor="#F6EDED"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton12"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#22F4EFEF"
-            android:buttonTint="#0E0D0D"
+            android:buttonTint="#F30505"
+            android:onClick="onRadioButtonClicked"
             android:text="Um cartão de identificação, com onome e fotografia, em lugar visível"
             android:textColor="#ECE1E1"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton11"
-            style="@android:style/Widget.Material.Light.CompoundButton.RadioButton"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#2A191818"
-            android:buttonTint="#0E0E0E"
+            android:buttonTint="#F60303"
+            android:onClick="onRadioButtonClicked"
             android:text="Todas as respostas acima."
             android:textColor="#EFE7E7"
             android:textSize="16sp"
@@ -64,33 +68,49 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn"
         android:layout_width="107dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="#121111"
         android:onClick="avancar"
         android:text="avançar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="322dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="10dp"
-        android:background="#0FF1EAEA"
+        android:layout_width="321dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="27dp"
+        android:background="#14EDE9E9"
         android:lineSpacingExtra="2sp"
         android:text="3) Os operadores de equipamentos de transporte motorizado deverão ser habilitados e sópoderão dirigir se durante o horário de trabalho portarem:"
         android:textColor="#F6F2F2"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="417dp"
+        android:layout_height="24dp"
+        android:progress="30"
+        android:progressTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

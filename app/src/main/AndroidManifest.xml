@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoaKeno">
         <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity12"
             android:exported="false" />
         <activity

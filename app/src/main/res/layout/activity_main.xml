@@ -9,10 +9,10 @@
 
     <EditText
         android:id="@+id/nome"
-        android:layout_width="215dp"
-        android:layout_height="40dp"
+        android:layout_width="206dp"
+        android:layout_height="52dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="276dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="12dp"
         android:background="#FC252424"
         android:ems="10"
@@ -22,16 +22,19 @@
         android:textColor="#E80909"
         android:textColorHint="#0ED817"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/senha"
         android:layout_width="216dp"
         android:layout_height="49dp"
         android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="12dp"
         android:background="#B9050505"
         android:ems="10"
@@ -43,14 +46,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nome"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="147dp"
         android:layout_height="66dp"
         android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="12dp"
         android:backgroundTint="#4CAF50"
         android:onClick="login"
@@ -58,8 +62,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
+        app:layout_constraintTop_toBottomOf="@+id/senha"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -67,7 +71,7 @@
         android:layout_height="145dp"
         android:background="#65E4DBDB"
         android:fontFamily="sans-serif"
-        android:text="Questionario NR11"
+        android:text="Questionário NR11"
         android:textAlignment="center"
         android:textColor="#C1090909"
         android:textSize="60sp"
@@ -81,43 +85,45 @@
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="104dp"
-        android:layout_height="34dp"
+        android:layout_width="64dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="10dp"
         android:background="#28100F0F"
         android:text="Login"
         android:textColor="#EC0404"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/nome"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.789" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView22"
-        android:layout_width="109dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="69dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
         android:background="#28100F0F"
         android:text="Senha"
         android:textColor="#EC0404"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/senha"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nome"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/senhak"
         android:layout_width="178dp"
         android:layout_height="37dp"
+        android:layout_marginTop="10dp"
         android:autoLink="web"
+        android:clickable="true"
         android:fontFamily="sans-serif-black"
+        android:onClick="passWord"
         android:text="Esqueceu a senha? Clique aqui"
         android:textAllCaps="false"
         android:textColor="#F8F3F3"
@@ -129,5 +135,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:background="#6FE6D9D9"
+        android:text="Versão 1.2.4"
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

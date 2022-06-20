@@ -8,9 +8,11 @@
     tools:context=".MainActivity8">
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_width="109dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="273dp"
+        android:layout_marginEnd="50dp"
         android:backgroundTint="#131313"
         android:onClick="avancar"
         android:text="Avançar"
@@ -19,13 +21,15 @@
         app:layout_constraintHorizontal_bias="0.895"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="285dp"
-        android:layout_height="52dp"
-        android:background="#20F6F0F0"
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="27dp"
+        android:background="#14EDE9E9"
         android:lineSpacingExtra="2sp"
         android:text="7) Qual é o EPI necessário que deve ser utilizado ao operar a empilhadeira?"
         android:textColor="#EFE8E8"
@@ -35,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <RadioGroup
         android:layout_width="300dp"
@@ -43,49 +47,68 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
 
         <RadioButton
-            android:id="@+id/radioButton25"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#23F4EEEE"
-            android:buttonTint="#191818"
+            android:buttonTint="#EF0404"
+            android:onClick="onRadioButtonClicked"
             android:text="Luva de Algodão;"
             android:textColor="#EADEDE"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton26"
+            android:id="@+id/btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3C1C1C1C"
-            android:buttonTint="#191818"
+            android:buttonTint="#F60202"
+            android:onClick="onRadioButtonClicked"
             android:text="Mangote de Kevlar;"
             android:textColor="#F1EFEF"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton27"
+            android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#20F1EEEE"
-            android:buttonTint="#0B0A0A"
+            android:buttonTint="#F40202"
+            android:onClick="onRadioButtonClicked"
             android:text="Protetor Auditivo Tipo Concha e/ou Plug;"
             android:textColor="#FBF7F7"
             android:textSize="16sp"
             android:textStyle="italic" />
 
         <RadioButton
-            android:id="@+id/radioButton28"
+            android:id="@+id/btn4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3C171616"
+            android:buttonTint="#F80101"
+            android:onClick="onRadioButtonClicked"
             android:text="Óculos de Segurança."
             android:textColor="#F3F1F1"
             android:textSize="16sp"
             android:textStyle="italic" />
     </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressBar7"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="417dp"
+        android:layout_height="24dp"
+        android:progress="70"
+        android:progressTint="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

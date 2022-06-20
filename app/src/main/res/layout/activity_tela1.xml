@@ -25,34 +25,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:tabIconTint="@android:color/holo_green_dark"
-        app:tabIndicatorColor="#036707"
-        app:tabTextColor="#047C09">
-
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Questionário" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="About" />
-    </com.google.android.material.tabs.TabLayout>
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="331dp"
@@ -70,8 +42,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
 
     <TextView
         android:id="@+id/textView3"
@@ -179,5 +151,28 @@
         app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/comeback"
+        android:layout_width="212dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#06930C"
+        android:onClick="voltar"
+        android:text="Home"
+        android:textColor="#F6F2F2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/qmsou"
+        android:layout_width="203dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#FF06930C"
+        android:onClick="about"
+        android:text="About"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
