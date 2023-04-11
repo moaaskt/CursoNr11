@@ -1,34 +1,29 @@
-# Curso Nr11
+# Curso Nr 11
 
-Este repositório contém o material do curso de segurança do trabalho NR11, que aborda as normas regulamentadoras para operação de empilhadeiras e outros equipamentos de transporte e movimentação de materiais.
+Este repositório contém os arquivos relacionados ao curso NR 11, que aborda as normas de segurança para operação de empilhadeiras. 
+
+## Descrição
+
+O curso NR 11 é obrigatório para todos os trabalhadores que utilizam empilhadeiras em seu trabalho. O curso aborda temas como técnicas de operação, inspeção e manutenção de equipamentos, além de medidas de segurança para prevenção de acidentes.
+
+Este repositório contém o material utilizado durante o curso, incluindo apresentações em PDF, vídeos explicativos e exercícios práticos.
+
+## Vídeo explicativo
+
+Abaixo está incorporado um vídeo explicativo sobre a importância do curso NR 11 e as normas de segurança relacionadas à operação de empilhadeiras.
+
+[![Vídeo explicativo sobre a importância do curso NR 11](https://img.youtube.com/vi/hxgv37qF_Zk/0.jpg)](https://www.youtube.com/watch?v=hxgv37qF_Zk)
 
 ## Conteúdo
 
-O curso é dividido em vários tópicos, que incluem:
-
-- Introdução à NR11
-- Equipamentos de transporte e movimentação de materiais
-- Sinalização de segurança
-- Inspeção e manutenção de equipamentos
-- Operação segura de empilhadeiras
-- Gerenciamento de riscos
-
-## Como utilizar
-
-Os materiais do curso estão organizados em pastas, separados por tópicos. Cada pasta contém os slides da apresentação, bem como materiais complementares, como vídeos e documentos.
-
-## Pré-requisitos
-
-Não há pré-requisitos para fazer o curso NR11. No entanto, é recomendável que os alunos tenham algum conhecimento prévio sobre segurança do trabalho e operação de equipamentos de movimentação de materiais.
-
-## Como contribuir
-
-Contribuições são bem-vindas! Se você quiser contribuir com este curso, por favor envie um pull request com suas sugestões ou correções.
+- Apresentações em PDF
+- Vídeos explicativos
+- Exercícios práticos
 
 ## Autor
 
-Este curso foi criado por Moaaskt. Você pode entrar em contato comigo por meio do meu perfil no GitHub.
+Este curso foi desenvolvido por Moaaskt.
 
 ## Licença
 
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+Este projeto é licenciado sob a licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md) para obter detalhes.
