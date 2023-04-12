@@ -1,4 +1,4 @@
-# Curso Nr 11
+# 🔗 Curso Nr 11 
 
 Este repositório contém os arquivos relacionados ao curso NR 11, que aborda as normas de segurança para operação de empilhadeiras. 
 
@@ -20,9 +20,9 @@ Abaixo está incorporado um vídeo explicativo sobre a importância do curso NR 
 - Vídeos explicativos
 - Exercícios práticos
 
-## Autor
+## 📝 Autor
 
-Este curso foi desenvolvido por Moaaskt.
+Este curso foi desenvolvido por Moacir Neto.
 
 ## Licença
 
